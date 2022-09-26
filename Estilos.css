@@ -29,7 +29,7 @@ body {
 /* comienza 1ra seccion */
 
 #primera-seccion{
-    background: linear-gradient( rgba(68,13,13,0.35),rgba(38,2,2,0.446)),url(Valle.jpg) no-repeat center/cover;
+    background: linear-gradient( rgba(68, 68, 68, 0.804),rgba(57, 56, 56, 0.856)),url(Valle.jpg) no-repeat center/cover;
     background-attachment: fixed;
     height: 100vh;
     color: aliceblue;
