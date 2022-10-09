@@ -14,7 +14,7 @@ body {
     font-family: "montaserrat", sans-serif;
     text-transform: uppercase;
     font-weight: 700;
-    background-color: #1abc9c;
+    background-color:#2980b9;
     padding: 1rem 2rem;
     display: inline-block;
     align-self: center;
@@ -29,7 +29,7 @@ body {
 /* comienza 1ra seccion */
 
 #primera-seccion{
-    background: linear-gradient( rgba(68, 68, 68, 0.804),rgba(57, 56, 56, 0.856)),url(Valle.jpg) no-repeat center/cover;
+    background: linear-gradient( rgba(68, 68, 68, 0.804),rgba(57, 56, 56, 0.856)),url(fondo.Inicio.jpg) no-repeat center/cover;
     background-attachment: fixed;
     height: 100vh;
     color: aliceblue;
@@ -55,7 +55,7 @@ nav>a{
     padding-right: 1rem;
 }
 nav>a:hover{
-    color:#27ae60;
+    color:#2980b9;
 }
 #primera-seccion-contenido{
     margin-top: 8rem;
@@ -72,7 +72,7 @@ nav>a:hover{
 }
 #primera-seccion-contenido> hr {
     width: 4.5rem;
-    border-color: #27ae60;
+    border-color: #2980b9;
 }
 #primera-seccion-contenido > h1 {
     font-family: "montaserrat",sans-serif;
@@ -92,8 +92,41 @@ nav>a:hover{
     justify-content: center;
     padding: 3rem;
 }
-#segunda-seccion>p {
-    color: black;
+
+/* ajustes de la imagen  */
+#segunda-seccion-izquierda{
+    flex: 1;
+}
+#segunda-seccion-izquierda >h3 {
+    text-transform: uppercase;
+    font-family: "montaserrat", sans-serif;
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 1.5rem;
+}
+#segunda-seccion-izquierda > p {
+    margin-bottom: 4rem;
+    margin: 0;
+}
+#segunda-seccion-derecha{
+    flex: 2;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 15px 10 px;
+    justify-items: center;
+    align-items: center;
+}
+#segunda-seccion-derecha > img {
+    max-width: 60%;
+    padding: 20px; 
+    margin: 30px; 
+    float: right; 
+    width: 300px;
+}
+#segunda-seccion-derecha > hr {
+    width: 4.5rem;
+    border-color: #2980b9;
+    margin-left:0;
 }
 /* termina segunda seccion */
 
@@ -119,7 +152,7 @@ nav>a:hover{
 }
 #titulo > hr {
     width: 4.5rem;
-    border-color: #27ae60;
+    border-color: #2980b9;
 }
 #container-tercera-seccion{
     text-align: center;
@@ -141,14 +174,15 @@ nav>a:hover{
     margin-bottom: 2rem;
 }
 .img-tercera > img{
-    max-width: 100;
+    max-width: 20;
+
 }
 
 /* termina tercera seccion */
 
 /* comienza la cuarta seccion */
 #cuarta-seccion{
-    background: linear-gradient( rgba(0,0,0,0.7),rgba(0,0,0,0.905)),url(Entrada.jpg) no-repeat center/cover;
+    background: linear-gradient( rgba(0,0,0,0.7),rgba(0,0,0,0.905)),url(foto.inicio2.jpg) no-repeat center/cover;
     background-attachment: fixed;
     height: 100vh;
     color: aliceblue;
@@ -173,7 +207,7 @@ nav>a:hover{
 }
 #cuarta-seccion-der >hr {
     width: 4.5rem;
-    border-color: #27ae60;
+    border-color: #2980b9;
     margin-left: 0;
     margin-bottom: 3rem;
 }
@@ -217,7 +251,7 @@ nav>a:hover{
 }
 #quinta-seccion-derecha > hr {
     width: 4.5rem;
-    border-color: #27ae60;
+    border-color: #2980b9;
     margin-left:0;
 }
 /*termina quinta seccion */
